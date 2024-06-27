@@ -289,6 +289,19 @@
     .identity-main-back {
         padding: 10px 20px 0px 20px;
     }
+    .ft-back-black {
+        padding: 40px 20px;
+    }
+    .ft-main {
+        padding: 20px;
+    }
+    .ft-top-btn {
+        gap: 2px;
+        flex-wrap: wrap;
+    }
+    .ft-top-btn a:nth-child(2) {
+        margin-right: 0;
+    }
 }
 
 
