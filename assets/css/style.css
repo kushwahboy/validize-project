@@ -924,7 +924,6 @@ h3 {
 .accordian-main-items.open .accordian-btn .negative {
     display: block;
 }
-
 /* FAQ section css end */
 /* Footer section css start */
 .ft-back-black {
@@ -935,7 +934,7 @@ h3 {
 .ft-main {
     background: linear-gradient(94.58deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
     border-radius: 16px;
-    padding: clamp(40px, 4.375vw, 84px) clamp(20px, 10.469vw, 201px) clamp(40px, 3.333vw, 64px) clamp(20px, 10.469vw, 201px);
+    padding: clamp(20px, 4.375vw, 84px) clamp(20px, 10.469vw, 201px) clamp(20px, 3.333vw, 64px) clamp(20px, 10.469vw, 201px);
 }
 .ft-top-content {
     text-align: center;
@@ -966,10 +965,37 @@ h3 {
 ul.ft-menu-list {
     justify-content: center;
     display: flex;
-    gap: clamp(20px, 3.958vw, 76px);
+    gap: 20px clamp(20px, 3.958vw, 76px);
     margin-top: clamp(20px, 2.708vw, 52px);
     align-items: center;
+    flex-wrap: wrap;
 }
 .ft-menu-list li a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--fff);
 }
 /* Footer section css end */
+/* Partners page css start */
+.breadcome-main {
+    background: rgba(243, 250, 255, 0.88);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 0 clamp(20px, 7.708vw, 148px);
+    border-radius: 16px;
+}
+.partners-about-sec {
+    padding: clamp(40px, 5.208vw, 100px) 0;
+}
+.partners-validize-sec .validize-main .top-bar {
+    max-width: 1166px;
+}
+.partners-validize-sec .validize-main .top-bar p:nth-child(1) {
+    padding: clamp(20px, 1.25vw, 24px) 0;
+}
+.partners-validize-sec .top-bar p:nth-child(2) {
+    padding: clamp(20px, 1.25vw, 24px) 0 clamp(30px, 2.5vw, 48px) 0;
+}
+/* Partners page css end */
