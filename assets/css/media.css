@@ -302,6 +302,24 @@
     .ft-top-btn a:nth-child(2) {
         margin-right: 0;
     }
+    .our-mission-main {
+        flex-wrap: wrap;
+    }
+    .our-mission-left-image, .our-mission-right-content{ 
+        width: 100%;
+    }
+    .gallery-main .gallery-img:nth-child(2), .gallery-main .gallery-img:nth-child(3), .gallery-main .gallery-img:nth-child(5) {
+        transform: translate(0px, 0px);
+    }
+    .gallery-main {
+        flex-wrap: wrap;
+    }
+    .gallery-img{
+        width: 100%;
+    }
+    .gallery-img img {
+        width: 100%;
+    }
 }
 
 

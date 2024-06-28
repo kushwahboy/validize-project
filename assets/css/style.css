@@ -983,7 +983,7 @@ ul.ft-menu-list {
     min-height: 400px;
     display: flex;
     align-items: center;
-    padding: 0 clamp(20px, 7.708vw, 148px);
+    padding: 40px clamp(20px, 7.708vw, 148px);
     border-radius: 16px;
 }
 .partners-about-sec {
@@ -992,10 +992,126 @@ ul.ft-menu-list {
 .partners-validize-sec .validize-main .top-bar {
     max-width: 1166px;
 }
-.partners-validize-sec .validize-main .top-bar p:nth-child(1) {
-    padding: clamp(20px, 1.25vw, 24px) 0;
-}
+
 .partners-validize-sec .top-bar p:nth-child(2) {
     padding: clamp(20px, 1.25vw, 24px) 0 clamp(30px, 2.5vw, 48px) 0;
 }
+.compllexity-p p:nth-child(1) {
+    padding-bottom: 0px !important;
+}
+.validize-msps-main {
+    background: #E1F4FA;
+    padding:  clamp(40px, 3.75vw, 72px) 20px;
+    border: solid 1px #519FDF;
+    border-radius: 16px;
+    margin: clamp(40px, 5.208vw, 100px) 0;
+}
+.validize-msps-main h2 {
+    max-width: 1315px;
+    margin: 0 auto;
+    text-align: center;
+}
 /* Partners page css end */
+
+/* features-page css start */
+.features-page .breadcome-content p {
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--292929);
+    margin-top: clamp(20px, 1.667vw, 32px);
+}
+.features-page .breadcome-content {
+    padding: clamp(0px, 2.031vw, 39px) 0 0px 0px;
+}
+.feature-page .validize-main {
+    background: transparent;
+    padding: 0;
+    max-width: 1464px;
+    margin: 0 auto;
+    
+}
+.validize.feature-page {
+    padding: clamp(40px, 5.208vw, 100px) 0 clamp(20px, 2.083vw, 40px) 0;
+}
+.available-sec {
+    padding:clamp(20px, 2.083vw, 40px) 0 clamp(40px, 4.167vw, 80px) 0;
+}
+.available-main {
+    text-align: center;
+}
+/* features-page css end */
+
+/* About page css start */
+.our-mission-sec {
+    padding: clamp(40px, 4.167vw, 80px) 0 clamp(20px, 2.083vw, 40px) 0;
+}
+.about-us-page .breadcome-content p {
+    font-size: 24px;
+    line-height: 120%;
+    margin-top: clamp(20px, 1.667vw, 32px);
+}
+.our-mission-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1464px;
+    margin: 0 auto;
+}
+.our-mission-left-image{ 
+    max-width: 500px;
+    width: 40%;
+}
+.our-mission-left-image img {
+    display: block;
+}
+.our-mission-right-content {
+    max-width: 870px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(20px, 4.063vw, 78px);
+}
+.our-mission-cn-1 h2 {
+    margin-bottom: clamp(20px, 1.25vw, 24px);
+}
+.our-mission-cn-1 p:not(:last-of-type) {
+    margin-bottom: clamp(20px, 1.25vw, 24px);
+}
+.about-page .validize-main {
+    background: transparent;
+    padding: 0;
+    max-width: 1464px;
+    margin: 0 auto;
+    
+}
+.validize.about-page {
+    padding: clamp(20px, 2.083vw, 40px) 0  clamp(20px, 2.604vw, 50px)  0;
+}
+.gallery-main {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+.gallery-img-two {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gallery-img img {
+    display: block;
+}
+.gallery-main .gallery-img:nth-child(2) {
+    transform: translate(0px, 80px);
+}
+.gallery-main .gallery-img:nth-child(3) {
+    transform: translate(0px, 40px);
+}
+.gallery-main .gallery-img:nth-child(5) {
+    transform: translate(0px, 37px);
+}
+.gallery-sec {
+    padding: clamp(20px, 2.604vw, 50px) 0 clamp(40px, 4.167vw, 80px) 0;
+}
+/* About page css end */
